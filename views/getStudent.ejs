@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SMS</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td><%= myData._name %></td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td><%= myData._age %></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><% if(myData._myGender==0) { %>
+                Male
+                <% } else if(myData._myGender==1) { %>
+                Female
+                <% } else { %>
+                Other
+                <% } %>
+            </td>
+        </tr>
+        <tr>
+            <td>Indian</td>
+            <td><% if(myData._indian) { %>
+                Yes
+                <% } else { %>
+                No
+                <% } %>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "05.1-inheritance-ui",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "express-fileupload": "^1.1.2-alpha.1",
+    "http-errors": "~1.6.2",
+    "ipfs-api": "^26.1.2",
+    "morgan": "~1.9.0",
+    "typedarray-to-buffer": "^3.1.5",
+    "web3": "^1.0.0-beta.48"
+  }
+}
